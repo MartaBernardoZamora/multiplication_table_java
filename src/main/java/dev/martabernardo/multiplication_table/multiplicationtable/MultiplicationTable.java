@@ -2,13 +2,14 @@ package dev.martabernardo.multiplication_table.multiplicationtable;
 
 public class MultiplicationTable {
 
+    private int number;
+    
     public MultiplicationTable(int factor1) {
-        //TODO Auto-generated constructor stub
+        this.number = factor1;
     }
 
     public int multiply(int factor2) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'multiply'");
+        return number*factor2;     
     }
 
 }

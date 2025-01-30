@@ -21,6 +21,7 @@ public class MultiplicationTableTest {
         assertEquals(resultExpected, result);
         
     }
+    
 
 
 }
