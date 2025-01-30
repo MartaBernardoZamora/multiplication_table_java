@@ -15,7 +15,7 @@ class AppTest {
 
     @Test
     @DisplayName("Test return correct result in iteration")
-    void testName() {
+    void testReturnsCorrectResultInIteration() {
         int num=5;
         int numIter=1;
 

@@ -1,5 +1,7 @@
 package dev.martabernardo.multiplication_table;
 
+import dev.martabernardo.multiplication_table.multiplicationtable.MultiplicationTable;
+
 public final class App {
     private App() {
     }
@@ -9,7 +11,7 @@ public final class App {
     }
 
     public static String iteration(int num, int numIter) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'iteration'");
+        MultiplicationTable multiplicationTable = new MultiplicationTable(num);
+        return multiplicationTable.completeMultiplication(numIter);
     }
 }
