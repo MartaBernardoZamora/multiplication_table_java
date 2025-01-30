@@ -21,7 +21,19 @@ public class MultiplicationTableTest {
         assertEquals(resultExpected, result);
         
     }
-    
 
+    @Test
+    @DisplayName("Test devuelve multiplicación completa de dos números")
+    void testReturnsCompleteMultiplication() {
+        int factor1 = 3;
+        int factor2 = 2;
+        MultiplicationTable multiplicationTable = new MultiplicationTable(factor1);
+
+        String result = multiplicationTable.completeMultiplication(factor2);
+
+        String resultExpected = "3 x 2 = 6";
+
+        assertEquals(resultExpected, result);
+    }
 
 }

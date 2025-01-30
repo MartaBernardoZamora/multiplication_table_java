@@ -12,4 +12,9 @@ public class MultiplicationTable {
         return number*factor2;     
     }
 
+    public String completeMultiplication(int factor2) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'completeMultiplication'");
+    }
+
 }
